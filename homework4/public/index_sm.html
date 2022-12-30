@@ -1,0 +1,26 @@
+<html>
+    <body id="main">       
+        <div class="block">
+
+            <h1>sqlite manager</h1>
+
+            <textarea id="command" placeholder="請輸入 SQL 指令"rows="6"cols="50"></textarea> <br>
+
+            <button id="submit" onclick="sqlrun()">執行</button> 
+
+            <div class="result">
+
+                <h>執行結果</h>
+                
+                <pre id="resultJson">
+                    
+                </pre>
+                
+            </div>
+
+        </div>
+
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </body>
+</html>
