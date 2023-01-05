@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> <!--cdnjs的css套件-->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header> 
+    <a href="#" class="logo">Exotic Cuisine</a> 
+    <nav class="navbar">
+        <a calss="acttive" href="#home">home</a>
+        <a href="#menu">menu</a>
+        <a href="#order">order</a>
+        <a href="http://127.0.0.1:8000/public1/#login"> sign out</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<section class="home" id="home">
+    <h3 class="menu-title">recommend menu</h3>
+
+    <div class="home-slider">
+
+        <div class="wrapper">
+
+            <div class="slide">
+                
+                <div class="content">
+
+                    <span>U.K. food</span>
+                    <h3>炸魚薯條</h3>
+                    <p>$110</p>
+                    <a href="#menu" class="dsbnt">order</a>
+
+                </div>
+                <div class="image">
+                    <img src="picture/炸醬面.jpeg">
+                </div>
+
+            </div>
+
+            <div class="slide">
+                
+                <div class="content">
+                    
+                    <span>korean food</span>
+                    <h3>乾烹雞</h3>
+                    <p>$ 100</p>
+                    <a href="#menu" class="dsbnt">order</a>
+
+                </div>
+                <div class="image">
+                    <img src="picture/乾烹雞.jpeg">
+                </div>
+
+            </div>
+
+            <div class="slide">
+                
+                <div class="content">
+                    
+                    <span>japan food</span>
+                    <h3>鰻魚飯</h3>
+                    <p>$ 200</p>
+                    <a href="#" class="dsbnt">order</a>
+
+                </div>
+                <div class="image">
+                    <img src="picture/鰻魚飯.jpg">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="menu" id="menu">
+
+    <h3 class="menu-title">today's menu</h3>
+
+
+    <div class="box-container">
+        <div class="box">
+            <div>
+                <img class="box-image" src="picture/乾烹雞.jpeg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="box-name">乾烹雞</h3>
+                    <span class="box-price">$50</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="picture/炸醬面.jpeg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3 class="box-name">炸醬面</h3>
+                    <span class="box-price">$100</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="picture/鰻魚飯.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                    <h3 class="box-name">鰻魚飯</h3>
+                    <span class="box-price">$200</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="picture/蚵嗲.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="box-name">蚵嗲</h3>
+                    <span class="box-price">$35</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="picture/腸粉.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="box-name">腸粉</h3>
+                    <span class="box-price">$55</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="picture/炸魚薯條 (1).jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="box-name">炸魚薯條</h3>
+                    <span class="box-price">$110</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="picture/墨魚麵.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3 class="box-name">墨魚義大利麵</h3>
+                    <span class="box-price">$290</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="picture/燉菜.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="box-name">普羅旺斯燉菜</h3>
+                    <span class="box-price">$400</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</section>
+
+<section class="container content-section" id="order">
+    <h2 class="section-header">order</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">purchase</button>
+</section>
+    
+<script src="index_js.js"></script>
+<script src="option.js"></script>
+</body>
+</html>
